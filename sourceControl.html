@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Balloon Game</title>
+</head>
+<body >
+    <div class="balloon balloon-blue"></div>
+   <div class="score-block">
+       <p>You popped <span class="score">0</span> balloons</p>
+   </div>
+   <div class="total-shadow">
+       <div class="total-block">
+           <div class="total-wrapper win">
+               <h4>Congratulations</h4>
+               <img src="Images/happy.png" alt="winner">
+               <h4>You popped all 100 balloons!</h4>
+               <p>You are a champion!!</p>
+           </div>
+           <div class="total-wrapper lose">
+           <h4>Sorry</h4>
+               <img src="Images/sad.png" alt="winner">
+               <h4>You popped <span class="score">0</span> balloons!</h4>
+               <p>Play Again?</p>
+               <button class="restart">yes</button>
+               <button class="cancel">no</button>
+            </div>
+       </div>
+   </div>
+</body>
+</html>
